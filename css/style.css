@@ -1,0 +1,70 @@
+.container-1
+{
+  background: #171717;
+  height: 1000px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+
+}
+
+.container-2
+{
+  background-image: url('../images/india.jpg');
+  min-height: 400px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.70;
+  text-align: center;
+}
+
+.heading
+{
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  color: #EDEDED;
+  border: solid;
+  border-color: teal;
+  border-width: thick;
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+}
+
+.sub
+{
+  position: relative;
+  top: 470px;
+  font-size: 30px;
+  color: #EDEDED;
+}
+.fontstyle
+{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.about
+{
+  display: inline-block;
+  margin: 40px;
+  padding: 10px;
+  font-size: 50px;
+  background-color: #EDEDED;
+  border: solid;
+  border-color: #444444;
+  border-width: thick;
+  opacity: 0.7;
+}
+
+body
+{
+  background-color: #444444;
+  height: 100%;
+  margin: 0;
+}
