@@ -3,6 +3,24 @@
   box-sizing: border-box;
 }
 
+.parallax
+{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.border
+{
+  border: solid;
+  border-color: #444444;
+  border-width: medium;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0.7;
+}
+
 .container-1
 {
   background: #171717;
@@ -13,13 +31,11 @@
   background-image: url('../images/india.jpg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .container-2
 {
-  background-image: url('../images/endless-constellation.svg');
+  background-image: url('../images/abstract-envelope.svg');
   min-height: 400px;
   position: relative;
   text-align: center;
@@ -33,11 +49,6 @@
   transform: translateY(-50%);
   margin: 0;
   color: #534340;
-  border: solid;
-  border-color: #444444;
-  border-width: medium;
-  padding: 10px;
-  padding-bottom: 0;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 75px;
 }
@@ -62,16 +73,13 @@
   padding: 10px;
   padding-bottom: 0;
   font-size: 50px;
-  background-color: #EDEDED;
-  border: solid;
-  border-color: #444444;
-  border-width: medium;
-  opacity: 0.6;
+  color: #534340;
 }
 
 .para
 {
   font-size: 25px;
+  color: #534340;
 }
 
 .container-3
@@ -79,26 +87,16 @@
   position: relative;
   text-align: center;
   min-height: 100%;
-  background-image: url('../images/art.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url('../images/cornered-stairs.svg');
 }
 
 .ourteam
 {
   display: inline-block;
-  font-size: 50px;
-  border: solid;
-  border-width: medium;
-  padding: 10px;
-  padding-bottom: 0;
-  border-color: #095c6e;
+  border-color: #444444;
   margin: 40px auto;
-  color: #EDEDED;
-  background-color: teal;
-  opacity: 0.7;
+  color: #F4FCD9;
+  font-size: 50px;
 }
 
 .column
@@ -119,72 +117,71 @@
 {
   font-size: 25px;
   font-family: 'Comfortaa', cursive;
-  color: #EDEDED;
+  color: #F4FCD9;
+  opacity: 0.7;
 }
 
 
 .navigator
 {
   position: fixed;
-  margin-left: 20px;
+  margin-left: 5px;
   margin-top: 5px;
   z-index: 1;
   border: 2px;
-  border-style: solid;
-  border-color: #444444;
+  border: solid;
+  border-color: black;
+  border-width: thin;
 }
 
 .nav-con
 {
   display: inline-block;
   margin: 10px;
-  font-family: 'Quicksand', sans-serif;
-  color: #171717;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 0.7;
 }
 
 .container-4
 {
   text-align: center;
   min-height: 500px;
-  background-image: url("../images/scattered.svg");
-  background-position: center;
+  background-image: url("../images/radiant-gradient.svg");
 }
 
 .logo
 {
-  height: 30px;
-  width: 30px;
-  padding: 5px;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
 }
 
 .contact
 {
-  border: solid;
-  border-width: thin;
-  border-color: #171717;
-  padding: 5px;
-  padding-bottom: 0;
   font-size: 50px;
+  color: #C5D8A4;
 }
 
 .contact-class
 {
   display: inline-block;
-    position: relative;
-    top: 75px;
+  position: relative;
+  top: 75px;
 }
 
 .signup-cont
 {
   position: relative;
-  top: 175px;
+  top: 150px;
   margin: 0;
 }
 
 .signup
 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 0;
+  color: #534340;
 }
 
 a
@@ -194,7 +191,7 @@ a
 
 body
 {
-  background-color: pink;
+  background-color: black;
   height: 100%;
   margin: 0;
 }
