@@ -1,23 +1,27 @@
+*
+{
+  box-sizing: border-box;
+}
+
 .container-1
 {
   background: #171717;
-  height: 1000px;
+  height: 745px;
   width: 100%;
   text-align: center;
   position: relative;
-
-}
-
-.container-2
-{
   background-image: url('../images/india.jpg');
-  min-height: 400px;
-  position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 0.70;
+}
+
+.container-2
+{
+  background-image: url('../images/endless-constellation.svg');
+  min-height: 400px;
+  position: relative;
   text-align: center;
 }
 
@@ -28,22 +32,24 @@
   top: 50%;
   transform: translateY(-50%);
   margin: 0;
-  color: #EDEDED;
+  color: #534340;
   border: solid;
-  border-color: teal;
-  border-width: thick;
+  border-color: #444444;
+  border-width: medium;
   padding: 10px;
+  padding-bottom: 0;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 50px;
+  font-size: 75px;
 }
 
 .sub
 {
   position: relative;
-  top: 470px;
+  top: 350px;
   font-size: 30px;
   color: #EDEDED;
 }
+
 .fontstyle
 {
   font-family: 'Josefin Sans', sans-serif;
@@ -54,17 +60,141 @@
   display: inline-block;
   margin: 40px;
   padding: 10px;
+  padding-bottom: 0;
   font-size: 50px;
   background-color: #EDEDED;
   border: solid;
   border-color: #444444;
-  border-width: thick;
+  border-width: medium;
+  opacity: 0.6;
+}
+
+.para
+{
+  font-size: 25px;
+}
+
+.container-3
+{
+  position: relative;
+  text-align: center;
+  min-height: 100%;
+  background-image: url('../images/art.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ourteam
+{
+  display: inline-block;
+  font-size: 50px;
+  border: solid;
+  border-width: medium;
+  padding: 10px;
+  padding-bottom: 0;
+  border-color: #095c6e;
+  margin: 40px auto;
+  color: #EDEDED;
+  background-color: teal;
   opacity: 0.7;
+}
+
+.column
+{
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.yash, .sanjana, .aishwarya, .viknesh
+{
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  color: #EDEDED;
+}
+
+
+.navigator
+{
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 5px;
+  z-index: 1;
+  border: 2px;
+  border-style: solid;
+  border-color: #444444;
+}
+
+.nav-con
+{
+  display: inline-block;
+  margin: 10px;
+  font-family: 'Quicksand', sans-serif;
+  color: #171717;
+}
+
+.container-4
+{
+  text-align: center;
+  min-height: 500px;
+  background-image: url("../images/scattered.svg");
+  background-position: center;
+}
+
+.logo
+{
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+.contact
+{
+  border: solid;
+  border-width: thin;
+  border-color: #171717;
+  padding: 5px;
+  padding-bottom: 0;
+  font-size: 50px;
+}
+
+.contact-class
+{
+  display: inline-block;
+    position: relative;
+    top: 75px;
+}
+
+.signup-cont
+{
+  position: relative;
+  top: 175px;
+  margin: 0;
+}
+
+.signup
+{
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+a
+{
+  text-decoration: none;
 }
 
 body
 {
-  background-color: #444444;
+  background-color: pink;
   height: 100%;
   margin: 0;
 }
