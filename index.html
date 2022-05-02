@@ -1,75 +1,166 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Parallax</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
 
-    <div class="navigator">
-      <a href="#home"><h4 class="nav-con">HOME</h4></a>
-      <a href="#aboutus"><h4 class="nav-con">ABOUT US</h4></a>
-      <a href="#ourteam"><h4 class="nav-con">OUR TEAM</h4></a>
-      <a href="#contactus"><h4 class="nav-con">CONTACT US</h4></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INX Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
     </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Here for the W<span>IN</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#teams" class="menu-btn">Our Team</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-    <div class="container-1 parallax" id="home">
-      <h1 class="heading border">IN<span style="color: #BB9981">X</span></h1>
-      <p class="sub fontstyle">Putting <span style="color:#F4C430">In</span>d<span style="color:#00FF00">ia</span></span> on the Map</p>
-    </div>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hey!</div>
+                <div class="text-2">We are INX</div>
+                <div class="text-3"><span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
 
-    <div class="container-2 parallax" id="aboutus">
-      <h1 class="fontstyle about border">ABOUT <span style="color:#BB9981">US</span></h1>
-      <p class="fontstyle para">
-          In the past few years, our country has lagged behind compared to its peers in terms of technological advancements<br/>"We aim to bridge that gap"
-      </p>
-    </div>
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Us</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/logo.gif" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">We aspire to be your  <span class="typing-2"></span></div>
+                    <p>INX was created because blah blah etc etc monkey donkey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="container-3 parallax" id="ourteam">
-      <h3 class="fontstyle ourteam border">OUR <span style="color:#C5D8A4;">TEAM</span></h3>
-      <div class="row">
-        <div class="column">
-          <img src="images/yash.png" width="100%;">
-          <a href="https://www.google.com"><h3 class="fontstyle yash">YASH SIKHWAL</h3></a>
 
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Our Team</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/yash.png" alt="">
+                        <div class="text">Yash Sikhwal</div>
+                        <p>The Narcissist</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/sanjana.jpeg" alt="">
+                        <div class="text">Sanjana Ramesh</div>
+                        <p>The Sweet One</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/aishwarya.jpg" alt="">
+                        <div class="text">Aishwarya R</div>
+                        <p>Miss Sassy</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Viknesh Balaji</div>
+                        <p>The Gaming Obssesed</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="column">
-          <img src="images/yash.png" width="100%;">
-          <a href="https://www.google.com"><h3 class="fontstyle sanjana">SANJANA RAMESH</h3></a>
-        </div>
-        <div class="column">
-          <img src="images/yash.png" width="100%;">
-          <a href="https://www.google.com"><h3 class="fontstyle viknesh">VIKNESH BALAJI</h3></a>
+    </section>
 
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Let's get in Touch</div>
+                    <p>Send us an email if you need any help blah blah balh ..</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">INX Headquarters</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Bengaluru, India</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">abc@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="column">
-          <img src="images/yash.png" width="100%;">
-          <a href="https://www.google.com"><h3 class="fontstyle aishwarya">AISHWARYA R</h3></a>
-        </div>
-      </div>
-    </div>
-      <div class="container-4 parallax" id="contactus">
-        <h3 class="fontstyle" style="font-size:40px; margin-top:0; padding-top:30px; color:#C5D8A4; opacity:0.7;">"It's time to catch up"</h3>
-        <div class="contact-class">
-          <h3 class="contact fontstyle border">CONTACT <span style="color:#534340">US</span></h3>
-          <a href="https://www.google.com"><img src="images/gmail-icon.svg" class="logo"></a>
-          <a href="https://www.google.com"><img src="images/instagram.png" class="logo"></a>
-          <a href="https://www.google.com"><img src="images/linkedin.png" class="logo"></a>
-          <a href="https://www.google.com"><img src="images/twitter.png" class="logo"></a>
-        </div>
-        <div class="signup-cont">
-          <h3 class="signup"><a href="https://www.facebook.com" style="color:#F4C430;">Sign Up</a> for our newsletter</h3>
-        </div>
-      </div>
-  </body>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Sign in to get updates on our <a href="https://www.gmail.com">Newsletter</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
